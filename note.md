@@ -19,3 +19,17 @@ Rewards mint address = RLBxxFkseAZ4RgJH3Sqn8jXxhmGoz9jWxDNJMh8pL7a
 https://stake.cardinal.so/H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3
 
 H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3
+
+
+  {
+    name: 'cheesecomputer',
+    displayName: 'CheeseComputer Staking',
+    stakePoolAddress: new PublicKey(
+      'H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3'
+    ),
+    redirect: 'https://staking-cheesecomputer.vercel.app/',
+    hidden: false,
+    notFound: true,
+    imageUrl:
+      '',
+  },

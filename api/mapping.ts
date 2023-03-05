@@ -110,12 +110,26 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     stakePoolAddress: new PublicKey(
       'H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3'
     ),
-    redirect: 'https://staking-cheesecomputer.vercel.app/',
-    hidden: false,
-    notFound: true,
-    imageUrl:
-      '',
+    websiteUrl: 'https://cheesecomputer.io/',
+    receiptType: ReceiptType.Original,
+    hostname: 'https://staking-cheesecomputer.vercel.app/',
+    contrastHomepageBkg: true,
+    hideFooter: true,
+    maxStaked: 200, // update with collection size
+    imageUrl: '/logos/rogue-sharks.svg',
+    tokenStandard: TokenStandard.NonFungible,
+    hideAllowedTokens: true,
+    styles: {
+    },
+    colors: {
+      primary: '#ffffff',
+      secondary: '#cff3f9',
+      accent: '#ffffff',
+      fontColor: '#000',
+      backgroundSecondary: '#f4f5f7',
+    },
   },
+
   {
     name: 'blockasset',
     displayName: 'Blockasset',
