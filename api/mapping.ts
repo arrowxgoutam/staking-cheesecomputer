@@ -105,31 +105,17 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
   //   },
   // },
   {
-    name: 'cheesecomputer',
-    displayName: 'CheeseComputer Staking',
+    name: 'AOM',
+    displayName: 'AOM',
     stakePoolAddress: new PublicKey(
-      'H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3'
+      'Hj1xfWP4qYq7N6eJxFRFGqNDiwMFRMo361ay5rFUThbk'
     ),
-    websiteUrl: 'https://cheesecomputer.io/',
-    receiptType: ReceiptType.Original,
-    hostname: 'https://staking-cheesecomputer.vercel.app/',
-    contrastHomepageBkg: true,
-    hideFooter: true,
-    maxStaked: 200, // update with collection size
-    imageUrl: '/logos/rogue-sharks.svg',
-    tokenStandard: TokenStandard.NonFungible,
-    hideAllowedTokens: true,
-    styles: {
-    },
-    colors: {
-      primary: '#ffffff',
-      secondary: '#cff3f9',
-      accent: '#ffffff',
-      fontColor: '#000',
-      backgroundSecondary: '#f4f5f7',
-    },
+    redirect: 'https://frame.artofmob.io',
+    hidden: false,
+    notFound: true,
+    imageUrl:
+      'https://pvajcmufckbozjicyp4aaltlbozv7emcj3sy6srskjm4ilq.arweave.net/fUCRM-oUSguylAsP4AC5r_C7NfkYJ_O5Y_9KMlJZxC4?ext=png',
   },
-
   {
     name: 'blockasset',
     displayName: 'Blockasset',
@@ -1747,6 +1733,46 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       {
         text: 'Buy Pixel Y00ts',
         value: 'https://magiceden.io/marketplace/pixel_yoots',
+      },
+    ],
+  },
+  {
+    name: 'cheesecomputer',
+    displayName: 'CheeseComputer Staking',
+    nameInHeader: true,
+    stakePoolAddress: new PublicKey(
+      'H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3'
+    ),
+    hostname: 'staking-cheesecomputer.vercel.app',
+    hideFooter: true,
+    hideAllowedTokens: true,
+    websiteUrl: 'https://cheesecomputer.io/',
+    receiptType: ReceiptType.Original,
+    tokenStandard: TokenStandard.NonFungible,
+    // styles to apply to the whole stake pool
+    styles: {
+      fontFamily: 'Industry, sans-serif',
+      fontWeight: 500,
+    },
+    // Colors object to style the stake page
+    colors: {
+      primary: '#181818',
+      secondary: '#177b7b',
+      backgroundSecondary: 'rgb(24 24 24 / 90%)',
+      fontColor: '#F2F2F2',
+    },
+    imageUrl:
+      '',
+    // Background image for poolq
+    backgroundImage:
+      '',
+
+    // Website url if specified will be navigated to when the image in the header is clicked
+    maxStaked: 200,
+    links: [
+      {
+        text: 'cheesecomputer',
+        value: 'https://cheesecomputer.io/',
       },
     ],
   },
