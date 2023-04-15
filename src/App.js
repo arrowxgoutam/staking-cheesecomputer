@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div class="cheesecomputer">
-         <iframe src="https://cheese-computer.vercel.app/cheesecomputer" frameborder="0"></iframe>
+         <iframe src="https://stake.cardinal.so/H7CFeUboerg7w3RaU8apsPJwkU4zW1fPXenQygiHPFn3" frameborder="0"></iframe>
       </div>
     </div>
   );
